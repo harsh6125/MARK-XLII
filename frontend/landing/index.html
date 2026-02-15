@@ -5,33 +5,106 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ScholarLink</title>
     <link rel="stylesheet" href="styles.css" />
+    
   </head>
   <body>
-    <header>
-      <nav>
-        <h1>ScholarLink</h1>
+    <header class="site-header">
+      <nav class="nav">
+        <div class="brand">
+          <span class="brand-mark" aria-hidden="true"></span>
+          <h1>ScholarLink</h1>
+        </div>
+        <div class="nav-cta">
+          <a class="ghost-link" href="#features">Explore</a>
+          <button class="primary-button">Join Now</button>
+        </div>
       </nav>
     </header>
     <main>
-      <section class="intro">
-        <h2>Welcome to ScholarLink</h2>
-        <p>Your gateway to academic resources and collaboration.</p>
+      <button id="clickBtn">Click Me</button>
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Built for builders and researchers</p>
+          <h2>Turn academic talent into startup momentum.</h2>
+          <p>
+            ScholarLink connects ambitious students with fast-moving startups for
+            real projects, real mentors, and real outcomes.
+          </p>
+          <div class="hero-actions">
+            <button class="primary-button">Start Collaborating</button>
+            <button class="secondary-button">See How It Works</button>
+          </div>
+          <div class="hero-metrics">
+            <div>
+              <span class="metric-number">120+</span>
+              <span class="metric-label">Active startups</span>
+            </div>
+            <div>
+              <span class="metric-number">2k</span>
+              <span class="metric-label">Student builders</span>
+            </div>
+            <div>
+              <span class="metric-number">94%</span>
+              <span class="metric-label">Project satisfaction</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero-card">
+          <div class="card-top">
+            <p class="card-label">Featured project</p>
+            <h3>MarketSignal</h3>
+            <p>
+              A fintech startup pairing with a cross-campus team to map emerging
+              consumer signals.
+            </p>
+          </div>
+          <div class="card-footer">
+            <span>Open roles: Research, Data, Product</span>
+            <button class="outline-button">View Brief</button>
+          </div>
+        </div>
       </section>
-      <section class="features">
-        <h3>Features</h3>
-        <ul>
-          <li>Connect Startups to students</li>
-          <li>Enhance your Skills by working on real projects</li>
-        </ul>
+      <section id="features" class="features">
+        <div class="section-heading">
+          <p class="eyebrow">Why ScholarLink</p>
+          <h3>Everything you need to build together</h3>
+          <p>
+            We make collaborations feel like a product team: structured, fast,
+            and deeply supported.
+          </p>
+        </div>
+        <div class="feature-grid">
+          <article>
+            <h4>Startup matchmaking</h4>
+            <p>Pair with founders who have scoped, real-world challenges.</p>
+          </article>
+          <article>
+            <h4>Skill acceleration</h4>
+            <p>Work on shipping work, not case studies or mock briefs.</p>
+          </article>
+          <article>
+            <h4>Mentor guidance</h4>
+            <p>Weekly checkpoints with alumni and operators.</p>
+          </article>
+        </div>
       </section>
       <section class="get-started">
-        <h3>Get Started</h3>
-        <p>Sign up today to get exposure to the world of startups.</p>
-        <button>Sign Up</button>
+        <div class="cta-card">
+          <div>
+            <p class="eyebrow">Get started</p>
+            <h3>Build your first startup collaboration in days.</h3>
+            <p>Sign up today to get exposure to the world of startups.</p>
+          </div>
+          <div class="cta-actions">
+            <button class="primary-button">Create Profile</button>
+            <button class="secondary-button">Book a Demo</button>
+          </div>
+        </div>
       </section>
     </main>
-    <footer>
-      <p>Project MARK-XLII</p>
+    <footer class="site-footer">
+      <p>Project MARK-XLII • ScholarLink landing page</p>
     </footer>
+    <script src="script.js"></script>  <!-- an external js file for interactivity of the web page--> 
   </body>
 </html>
